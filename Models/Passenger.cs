@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace RideSharingSystem.Models
 {
-    internal class Passenger
+    internal class Passenger: User
     {
+        public decimal Wallet { get; set; }
+
+        public Passenger(string username, string password) : base(username, password) { }
+
+        public void AddFunds(decimal amount)
+        {
+            this.Wallet = amount;
+        }
+
+        public void RequestRide(string pickup, string dropoff)
+        {
+            
+        }
     }
 }
