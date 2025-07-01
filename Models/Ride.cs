@@ -1,15 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text.Json.Serialization;
 
 namespace RideSharingSystem.Models
 {
     internal class Ride
     {
+        [JsonIgnore]
         public Passenger Passenger { get; set; }
         public Driver Driver { get; set; }
+
+
         public string PickupLocation { get; set; }
         public string DropOffLocation { get; set; }
         public int Distance { get; set; }

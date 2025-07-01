@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using RideSharingSystem.Interfaces;
 
 namespace RideSharingSystem.Models
@@ -29,6 +25,8 @@ namespace RideSharingSystem.Models
                 DropOffLocation = dropoff,
                 Distance = new Random().Next(1, 20)
             };
+
+            Program.PendingRides.Add(ride);
 
             Console.WriteLine($"Ride requested from {pickup} to {dropoff}, approximate distance {ride.Distance}km.");
         }
