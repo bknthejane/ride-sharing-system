@@ -33,6 +33,9 @@ namespace RideSharingSystem
                 try
                 {
                     int choice = Convert.ToInt32(Console.ReadLine());
+
+                    Console.Clear();
+
                     switch (choice)
                     {
                         case 1:
@@ -54,10 +57,16 @@ namespace RideSharingSystem
                             Console.WriteLine("Invalid option.");
                             break;
                     }
+
+                    Console.WriteLine("\nPress Enter to return to the menu...");
+                    Console.ReadLine();
                 }
                 catch
                 {
+                    Console.Clear();
                     Console.WriteLine("Invalid input. Please enter a number.");
+                    Console.WriteLine("\nPress Enter to return to the menu...");
+                    Console.ReadLine();
                 }
             }
         }

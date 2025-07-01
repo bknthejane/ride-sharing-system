@@ -1,12 +1,11 @@
 {
   "Passengers": [
     {
-      "Wallet": 76,
       "RideHistory": [
         {
           "Driver": {
             "Available": true,
-            "Earnings": 8,
+            "Earnings": 16,
             "Rating": 0,
             "RidesCompleted": 1,
             "Username": "Driver1",
@@ -14,26 +13,12 @@
           },
           "PickupLocation": "A",
           "DropOffLocation": "B",
-          "Distance": 4,
-          "Fare": 8,
-          "Completed": true
-        },
-        {
-          "Driver": {
-            "Available": true,
-            "Earnings": 24,
-            "Rating": 0,
-            "RidesCompleted": 2,
-            "Username": "Driver1",
-            "Password": "123456"
-          },
-          "PickupLocation": "W",
-          "DropOffLocation": "Z",
           "Distance": 8,
           "Fare": 16,
           "Completed": true
         }
       ],
+      "Wallet": 134,
       "Username": "Pass1",
       "Password": "123456"
     }
@@ -41,9 +26,9 @@
   "Drivers": [
     {
       "Available": true,
-      "Earnings": 24,
+      "Earnings": 16,
       "Rating": 0,
-      "RidesCompleted": 2,
+      "RidesCompleted": 1,
       "Username": "Driver1",
       "Password": "123456"
     }
@@ -53,7 +38,7 @@
     {
       "Driver": {
         "Available": true,
-        "Earnings": 8,
+        "Earnings": 16,
         "Rating": 0,
         "RidesCompleted": 1,
         "Username": "Driver1",
@@ -61,21 +46,6 @@
       },
       "PickupLocation": "A",
       "DropOffLocation": "B",
-      "Distance": 4,
-      "Fare": 8,
-      "Completed": true
-    },
-    {
-      "Driver": {
-        "Available": true,
-        "Earnings": 24,
-        "Rating": 0,
-        "RidesCompleted": 2,
-        "Username": "Driver1",
-        "Password": "123456"
-      },
-      "PickupLocation": "W",
-      "DropOffLocation": "Z",
       "Distance": 8,
       "Fare": 16,
       "Completed": true
